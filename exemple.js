@@ -2,7 +2,7 @@ let villeChoisie;
 
 if('geolocation' in navigator){
     navigator.geolocation.watchPosition((position)=>{
-    const url = 'https://api.openweathermap.org/data/2.5/weather?lon=' +position.coords.longitude+ '&lat=' + position.coords.latitude + '&appid=a2a42c65541f8ad5b5de1f5268cdb342&units=metric';
+    const url https://api.openweathermap.org/data/
         console.log(url);
   let requete = new XMLHttpRequest(); // Nous créons un objet qui nous permettra de faire des requêtes
   requete.open('GET', url); // Nous récupérons juste des données
